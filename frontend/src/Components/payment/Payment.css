@@ -1,0 +1,41 @@
+.payment-success {
+  text-align: center;
+  margin-top: 100px;
+  font-family: 'Arial', sans-serif;
+  color: #4ecb8d;
+}
+
+.success-icon {
+  font-size: 80px;
+  border: 4px solid #4ecb8d;
+  border-radius: 50%;
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+p {
+  color: #7d7d7d;
+  margin-top: 10px;
+}
+
+.spinner {
+  margin: 30px auto;
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #4ecb8d;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
